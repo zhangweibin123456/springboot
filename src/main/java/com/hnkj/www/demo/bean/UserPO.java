@@ -2,6 +2,7 @@ package com.hnkj.www.demo.bean;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Table;
 
 import org.springframework.data.annotation.Id;
@@ -10,8 +11,8 @@ import org.springframework.data.annotation.Id;
 @Table(name = "user1")
 public class UserPO {
 	
-	@Id
-    @GeneratedValue
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	private String name;
