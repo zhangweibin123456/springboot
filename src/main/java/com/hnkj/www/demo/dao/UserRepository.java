@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 import com.hnkj.www.demo.bean.UserPO;
 
-@Repository
-public interface UserRepository extends CrudRepository<UserPO, Long> {
-
-}
+//@Repository
+//public interface UserRepository extends CrudRepository<UserPO, Long> {
+//
+//}

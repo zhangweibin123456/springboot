@@ -15,11 +15,11 @@ public class DemoApplication {
 	/**
 	 * 数据源1：JdbcTemplate
 	 */
-	@Bean(name = "secondaryJdbcTemplate")
-	public JdbcTemplate secondaryJdbcTemplate(
-	        @Qualifier("secondaryDataSource") DataSource dataSource) {
-	    return new JdbcTemplate(dataSource);
-	}
+//	@Bean(name = "secondaryJdbcTemplate")
+//	public JdbcTemplate secondaryJdbcTemplate(
+//	        @Qualifier("secondaryDataSource") DataSource dataSource) {
+//	    return new JdbcTemplate(dataSource);
+//	}
 	
 	
 	

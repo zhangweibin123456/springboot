@@ -7,12 +7,12 @@ import javax.persistence.Table;
 
 import org.springframework.data.annotation.Id;
 
-@Entity
-@Table(name = "user1")
+//@Entity
+//@Table(name = "user1")
 public class UserPO {
 	
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+//    @Id
+//    @GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
 	private String name;
